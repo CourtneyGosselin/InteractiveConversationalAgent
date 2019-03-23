@@ -29,7 +29,7 @@ The Interactive Conversational Agent allows an individual to hold a conversation
     * OpenNLP Sentiment analysis tools -Stanford toolkit
 * Conversation with another agent in class
 
-## Documation
+## Documentation
 Found in the files folder and ReadMe File
 * Level 0 DFD
 * Level 1 DFD
