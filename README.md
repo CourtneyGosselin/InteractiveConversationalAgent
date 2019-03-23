@@ -15,6 +15,25 @@ The Interactive Conversational Agent allows an individual to hold a conversation
 
 **Or run the yebot.java file**
 
+## Programmed Features
+* GUI
+* Topics the agent covers:
+* 5+ Reasonable responses for when the user enters something Yebot doesn't know
+* Spell check
+* Use of language toolkits
+    * Synonym recognition -WordNet (you'll need a Java API to it)
+    * POS tagging -Stanford toolkit, 
+    * OpenNLPoNamed entity recognition -Stanford toolkit, 
+    * OpenNLPoPhrasal -Stanford toolkit
+    * Coreference Resolution -Stanford toolkit, 
+    * OpenNLPoSentiment analysis tools -Stanford toolkit
+* Conversation with another agent in class
+
+## Documation
+Found in the files folder and ReadMe File
+* 
+
+
 
 ## Built With
 
