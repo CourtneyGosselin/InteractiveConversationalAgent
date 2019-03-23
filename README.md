@@ -23,15 +23,21 @@ The Interactive Conversational Agent allows an individual to hold a conversation
 * Use of language toolkits
     * Synonym recognition -WordNet (you'll need a Java API to it)
     * POS tagging -Stanford toolkit, 
-    * OpenNLPoNamed entity recognition -Stanford toolkit, 
-    * OpenNLPoPhrasal -Stanford toolkit
+    * OpenNLP Named entity recognition -Stanford toolkit, 
+    * OpenNLP Phrasal -Stanford toolkit
     * Coreference Resolution -Stanford toolkit, 
-    * OpenNLPoSentiment analysis tools -Stanford toolkit
+    * OpenNLP Sentiment analysis tools -Stanford toolkit
 * Conversation with another agent in class
 
 ## Documation
 Found in the files folder and ReadMe File
-* 
+* Level 0 DFD
+* Level 1 DFD
+* Submission of your GitHub repositor
+* Graph showing different features developed on seperate branh w commits amde to repo
+* Include sample output of dialogue 30 turns showing the new features
+* Document a list of limitation fo the program showing two short version of what it cannot handle
+* 5+ Features that can be extracted from the code or design that can be shared with others as an API
 
 
 
