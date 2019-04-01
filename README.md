@@ -17,8 +17,18 @@ The Interactive Conversational Agent allows an individual to hold a conversation
 
 ## Programmed Features
 * GUI
+   * The GUI was working in A2. However, improvements were made to this feature. This included aesthetical choices as well as the removal of a tiny window that popped up along with the conversational window.
 * Topics the agent covers:
-* 5+ Reasonable responses for when the user enters something Yebot doesn't know
+   * The agenet responds to the user in several ways:
+      * A sentence based on a former social media post for example twitter
+      * A sentence based on song lyrics
+      * A sentence based on interviews 
+* Reasonable responses for when the user enters something Yebot doesn't know
+   * "Wish I could help    I dont know what that means"
+   * "You got good vibes   but I dont know what to say to that"
+   * "Yo man you gotta slow down  maybe try saything that a different way"
+   * "That aint something im knowledgable on maybe say it ina  different way"
+   * "Could you say it in a different way I may just not know what youre on about"
 * Spell check
 * Use of language toolkits
     * Synonym recognition -WordNet (you'll need a Java API to it)
@@ -33,7 +43,7 @@ The Interactive Conversational Agent allows an individual to hold a conversation
 Found in the files folder and ReadMe File
 * Level 0 DFD
 * Level 1 DFD
-* Submission of your GitHub repositor
+* Submission of your GitHub repository
 * Graph showing different features developed on seperate branh w commits amde to repo
 * Include sample output of dialogue 30 turns showing the new features
 * Document a list of limitation fo the program showing two short version of what it cannot handle
