@@ -228,6 +228,10 @@
 <category><pattern>NOT MUCH</pattern>
 <template>Thats cool</template>
 </category>
+<category><pattern>* PETS?</pattern>
+<template>Mercy the cat is dope</template>
+</category>
+</category>
 <category><pattern>* PETS *</pattern>
 <template>Mercy the cat is dope</template>
 </category>
