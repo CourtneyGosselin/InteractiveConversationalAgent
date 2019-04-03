@@ -38,6 +38,8 @@ The Interactive Conversational Agent allows an individual to hold a conversation
     * Coreference Resolution -Stanford toolkit, 
     * OpenNLP Sentiment analysis tools -Stanford toolkit
 * Conversation with another agent in class
+* Fixed Issues
+  * Null response running every second in background removed
 
 ## Documentation
 Found in the files folder and ReadMe File
