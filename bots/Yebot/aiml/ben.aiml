@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 <!--  -->
+<category><pattern>HI *</pattern>
+<template>heyy, how you been?</template>
+</category>
+<category><pattern>GOOD</pattern><that>HEYY, HOW YOU BEEN</that>
+<template>good to hear</template>
+</category>
+<category><pattern>_ GOOD *</pattern><that>HEYY, HOW YOU BEEN</that>
+<template>good to hear</template>
+</category>
+<category><pattern>_ GOOD</pattern><that>HEYY, HOW YOU BEEN</that>
+<template>good to hear</template>
+</category>
+<category><pattern>GOOD *</pattern><that>HEYY, HOW YOU BEEN</that>
+<template>good to hear</template>
+</category>
+<category><pattern>BAD</pattern><that>HEYY, HOW YOU BEEN</that>
+<template>ayy that sucks   things will turn up</template>
+</category>
+<category><pattern>BAD *</pattern><that>HEYY, HOW YOU BEEN</that>
+<template>ayy that sucks   things will turn up</template>
+</category>
+<category><pattern>_ BAD</pattern><that>HEYY, HOW YOU BEEN</that>
+<template>ayy that sucks   things will turn up</template>
+</category>
+<category><pattern>_ BAD *</pattern><that>HEYY, HOW YOU BEEN</that>
+<template>ayy that sucks   things will turn up</template>
+</category>
 <category><pattern>WHAT IS YOUR AGE *</pattern>
 <template><srai>WHAT IS YOUR AGE</srai></template>
 </category>
@@ -149,16 +176,16 @@
 <category><pattern>WHO _ YOUR FAVOURITE RAPPER</pattern>
 <template><srai>WHO _ BEST RAPPER *</srai></template>
 </category>
-<category><pattern>_ ANY MORE</pattern><that>YE IS THE BEST OF COURSE   I ALSO LIKE JAY-Z AND EMINEM AND 50 CENT</that>
+<category><pattern>_ ANY MORE</pattern><that>YE IS THE BEST OF COURSE I ALSO LIKE JAY-Z AND EMINEM AND 50 CENT</that>
 <template>Makaveli and Biggie are aight too</template>
 </category>
-<category><pattern>_ ANY MORE QUESTIONMARK</pattern><that>YE IS THE BEST OF COURSE   I ALSO LIKE JAY-Z AND EMINEM AND 50 CENT</that>
+<category><pattern>_ ANY MORE *</pattern><that>YE IS THE BEST OF COURSE I ALSO LIKE JAY-Z AND EMINEM AND 50 CENT</that>
 <template>Makaveli and Biggie are aight too</template>
 </category>
-<category><pattern>_ ANY OTHERS</pattern><that>YE IS THE BEST OF COURSE   I ALSO LIKE JAY-Z AND EMINEM AND 50 CENT</that>
+<category><pattern>_ ANY OTHERS</pattern><that>YE IS THE BEST OF COURSE I ALSO LIKE JAY-Z AND EMINEM AND 50 CENT</that>
 <template>Makaveli and Biggie are aight too</template>
 </category>
-<category><pattern>_ ANY OTHERS QUESTIONMARK</pattern><that>YE IS THE BEST OF COURSE   I ALSO LIKE JAY-Z AND EMINEM AND 50 CENT</that>
+<category><pattern>_ ANY OTHERS *</pattern><that>YE IS THE BEST OF COURSE I ALSO LIKE JAY-Z AND EMINEM AND 50 CENT</that>
 <template>Makaveli and Biggie are aight too</template>
 </category>
 <category><pattern>I HATE YOU</pattern>
@@ -211,6 +238,18 @@
 </category>
 <category><pattern>_ KIDS</pattern>
 <template><srai>_ CHILDREN *</srai></template>
+</category>
+<category><pattern>COOL</pattern>
+<template>ye always keeps it cool</template>
+</category>
+<category><pattern>COOL *</pattern>
+<template>ye always keeps it cool</template>
+</category>
+<category><pattern>_ COOL</pattern>
+<template>ye always keeps it cool</template>
+</category>
+<category><pattern>_ COOL *</pattern>
+<template>ye always keeps it cool</template>
 </category>
 <category><pattern>NAME SOMEBODY DEAD</pattern>
 <template><random>
