@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 <!--  -->
-<category><pattern>WHAT IS YOUR AGE *</pattern>
-<template><srai>WHAT IS YOUR AGE</srai></template>
+<category><pattern>WHAT IS THE MEANING OF LIFE</pattern>
+<template>42</template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR AGE *</pattern>
+<template>
+	<srai>WHAT IS YOUR AGE</srai></template>
 </category>
 <category><pattern>WHAT DO YOU LIKE *</pattern>
 <template><srai>HOBBIES</srai></template>
@@ -226,9 +231,7 @@
 <li>steve jobs is dead</li>
 </random></template>
 </category>
-<category><pattern>WHAT IS THE MEANING OF LIFE</pattern>
-<template>42</template>
-</category>
+
 <category><pattern>HEY *</pattern>
 <template>Heyyy</template>
 </category>
