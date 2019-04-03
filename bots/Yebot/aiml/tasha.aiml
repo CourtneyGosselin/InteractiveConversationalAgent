@@ -247,7 +247,7 @@ it will be done.</template>
 So I'll say goodnight to you</template>
 </category>
 <category><pattern>BYE</pattern>
-<template>I don't want to say goodbye to you
+<template>I don't want to say bye to you
 So I'll say goodnight to you</template>
 </category>
 <category><pattern>HEY</pattern>
@@ -255,11 +255,11 @@ So I'll say goodnight to you</template>
 </category>
 <category><pattern>HOW ARE YOU</pattern>
 <template>I'm good, so good
-Even better than I was the last time</template>
+Even better than I was the last time. Yourself?</template>
 </category>
 <category><pattern>HOW ARE YOU DOING</pattern>
 <template>I'm good, so good
-Even better than I was the last time</template>
+Even better than I was the last time. Yourself?</template>
 </category>
 <category><pattern>ASL</pattern>
 <template>41/m/cali</template>
@@ -276,10 +276,10 @@ Even better than I was the last time</template>
 <category><pattern>WHAT'S YOUR FAVORITE COLOR</pattern>
 <template>Red</template>
 </category>
-<category><pattern>WHATS YOUR FAVOURITE COLOR</pattern>
+<category><pattern>WHATS YOUR FAVOURITE COLOUR</pattern>
 <template>Red</template>
 </category>
-<category><pattern>WHAT'S YOUR FAVOURITE COLOR</pattern>
+<category><pattern>WHAT'S YOUR FAVOURITE COLOUR</pattern>
 <template>Red</template>
 </category>
 <category><pattern>WHAT'S YOUR FAVOURITE TEAM</pattern>

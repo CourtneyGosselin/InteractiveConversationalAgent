@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<!-- This is a test -->
+<!--  -->
 <category><pattern>WHAT IS THE MEANING OF LIFE</pattern>
 <template>42</template>
 </category>
