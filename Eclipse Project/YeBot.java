@@ -27,7 +27,7 @@ public class YeBot {
 		while(!conversation.isContained(input)){
 			input = null;
 			input = conversation.recieveInput();
-			System.out.println(input);
+			//System.out.println(input);
 			
 			if (input!=""&&input!=null&&input.length()>1||i==1) {
 				if(input==""||input==null||input.length()<1) {
