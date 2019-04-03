@@ -166,7 +166,7 @@ public class BDialog extends JDialog {
 	//displays kanyes reply in chatBox
 	public String showInputDialog(String msg){
 		chatBox.setText(chatBox.getText().concat("Kanye: "+msg)+"\n\n");
-		setVisible(true);
+		//setVisible(true);
 		return msg;
 	}
 	//tells our program what the user entered so it can respond accordingly

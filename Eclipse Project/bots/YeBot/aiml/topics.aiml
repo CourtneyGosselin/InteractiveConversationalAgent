@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<!-- Ben AIML -->
+<!--  -->
 <category><pattern>WHAT IS YOUR AGE *</pattern>
 <template><srai>WHAT IS YOUR AGE</srai></template>
 </category>
@@ -219,8 +219,6 @@
 <li>steve jobs is dead</li>
 </random></template>
 </category>
-
-<!-- Courtney.aiml -->
 <category><pattern>WHAT IS THE MEANING OF LIFE</pattern>
 <template>42</template>
 </category>
@@ -260,8 +258,6 @@
 <category><pattern>ARE YOU HUMAN *</pattern>
 <template>Flesh and blood baby</template>
 </category>
-
-<!-- Tasha AIML  -->
 <category><pattern>HI</pattern>
 <template>wassup</template>
 </category>
@@ -603,8 +599,6 @@ Even better than I was the last time</template>
 <li>Could you say it in a different way I may just not know what youre on about</li>
 </random></template>
 </category>
-
-<!-- Puck AIML -->
 <category><pattern>I AM *</pattern>
 <template><srai>MY NAME IS *</srai></template>
 </category>
@@ -637,9 +631,6 @@ Even better than I was the last time</template>
 <category><pattern>SEE YOU</pattern>
 <template><srai>GOODBYE</srai></template>
 </category>
-
-
-<!-- Greg AIML  -->
 <category><pattern>WHAT ARE YOUR FAVORITE KIND OF SHOES</pattern>
 <template>Yeezus likes yeezys</template>
 </category>
@@ -732,6 +723,4 @@ TRON THE END OF THE TRON WHERE EVERYTHING LIGHT UP!!!!</template>
 <category><pattern>DO YOU KNOW ANY NINJAS</pattern>
 <template>Man  ... ninjas are kind of cool ... I just don't know any personally</template>
 </category>
-
-
 </aiml>
