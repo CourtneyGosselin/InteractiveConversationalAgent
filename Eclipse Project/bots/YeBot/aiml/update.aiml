@@ -2,7 +2,7 @@
 <aiml>
 <!--  -->
 <category><pattern>BUILD</pattern>
-<template>Wed Apr 03 12:47:58 PDT 2019</template>
+<template>Wed Apr 03 12:54:29 PDT 2019</template>
 </category>
 <category><pattern>DELEVLOPMENT ENVIRONMENT</pattern>
 <template>Program AB 0.0.4.2 beta -- AI Foundation Reference AIML 2.0 implementation</template>

@@ -219,6 +219,14 @@
 <li>steve jobs is dead</li>
 </random></template>
 </category>
+<category><pattern>NAME SOMEONE DEAD</pattern>
+<template><random>
+<li>picasso is dead</li>
+<li>walt disney is dead</li>
+<li>steve jobs is dead</li>
+</random></template>
+</category>
+<!--Courtney-->
 <category><pattern>WHAT IS THE MEANING OF LIFE</pattern>
 <template>42</template>
 </category>
