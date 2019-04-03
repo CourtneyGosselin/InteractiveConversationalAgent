@@ -270,6 +270,7 @@
 <category><pattern>ARE YOU HUMAN *</pattern>
 <template>Flesh and blood baby</template>
 </category>
+<!--AIML-->
 <category><pattern>HI</pattern>
 <template>wassup</template>
 </category>
@@ -403,9 +404,6 @@ where its like shes a reality star and im a rapper   who do you love</template>
 </category>
 <category><pattern>I'M HAPPY</pattern>
 <template>we super happy</template>
-</category>
-<category><pattern>I'M *</pattern>
-<template>well I'm super happy</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE FOOD</pattern>
 <template>I drink a Boost for breakfast,  an ensure for dessert   
