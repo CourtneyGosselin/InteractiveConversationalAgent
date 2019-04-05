@@ -17,19 +17,25 @@ The Interactive Conversational Agent allows an individual to hold a conversation
 
 ## Programmed Features
 * GUI
-   * The GUI was working in A2. However, improvements were made to this feature. This included aesthic choices, ability to change the chat box size, as well as the removal of a tiny window that popped up along with the conversational window.
+   * The GUI was working in A2. However, improvements were made to this feature. This included aesthetic choices, ability to change the chat box size, as well as the removal of a tiny window that popped up along with the conversational window.
 * Topics the agent covers:
    * The agenet responds to the user in several ways:
       * A sentence based on a former social media post for example twitter
       * A sentence based on song lyrics
       * A sentence based on interviews 
+   * General Conversation
+    * Himself
+    * His family and pets
+    * Personal Interests and hobbies
+    * President of USA
+    * His favourite colour etc.
 * Reasonable responses for when the user enters something Yebot doesn't know
    * "Wish I could help    I dont know what that means"
    * "You got good vibes   but I dont know what to say to that"
-   * "Yo man you gotta slow down  maybe try saything that a different way"
-   * "That aint something im knowledgable on maybe say it ina  different way"
+   * "Yo man you gotta slow down  maybe try saying it a different way"
+   * "That aint something im knowledgeable on maybe say it ina  different way"
    * "Could you say it in a different way I may just not know what youre on about"
-* Spell check
+* Spell checkb - Not Implemented Currently 
 * Language toolkits
     * Synonym recognition -WordNet (you'll need a Java API to it)
     * POS tagging -Stanford toolkit
