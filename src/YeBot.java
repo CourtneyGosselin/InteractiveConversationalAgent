@@ -1,4 +1,5 @@
 import java.util.*;
+import opennlp.tools.stemmer.PorterStemmer;
 import org.alicebot.ab.*;
 import java.io.File;
 /**
@@ -9,6 +10,8 @@ public class YeBot {
 	static Conversation conversation;			
 
 	public static void main(String[] args) {
+		
+		PorterStemmer stemmer = new PorterStemmer();
 		//initialize
 		String dir = new File(".").getAbsolutePath();
 		System.out.println(dir.substring(0,dir.length()-2));
@@ -54,11 +57,7 @@ public class YeBot {
 		}
 		System.exit(1); 	//This statement terminates the program	
 		
-			//Do you want to start the conversation over? make sure you get valid input (Done)
-//			ans = conversation.response("Do you want to start our conversation over? (Y/N)"); 
-//			while(ans != null && !ans.toUpperCase().equals("Y") && !ans.toUpperCase().equals("N"))
-//				ans = conversation.response("Invalid input. Do you want to start our conversation over? (Y/N)");
-		//while(ans.toUpperCase().equals("Y"));	//start over if answer is "Y" or "y"
-
 	}
+	
+	
 }

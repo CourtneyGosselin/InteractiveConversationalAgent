@@ -21,8 +21,36 @@
 </category>
 <category><pattern>DO YOU KNOW WHO * IS</pattern>
 <template><random>
-				<li>I do not know who <star/></li>
+				<li>I do not know who <star/>. Who are they?</li>
 				<li>We are tight me and <star/></li>
+			</random></template>
+</category>
+<category><pattern>THEY ARE *</pattern>
+<template><random>
+				<li>Wow really they are <star/></li>
+				<li>I was completely unaware </li>
+				<li>I actually knew that! </li>
+			</random></template>
+</category>
+<category><pattern>THEY *</pattern>
+<template><random>
+				<li>Wow really they are <star/></li>
+				<li>I was completely unaware </li>
+				<li>I actually knew that! </li>
+			</random></template>
+</category>
+<category><pattern>SHE IS *</pattern>
+<template><random>
+				<li>Wow really they are <star/></li>
+				<li>I was completely unaware </li>
+				<li>I actually knew that! </li>
+			</random></template>
+</category>
+<category><pattern>HE IS *</pattern>
+<template><random>
+				<li>Wow really they are <star/></li>
+				<li>I was completely unaware </li>
+				<li>I actually knew that! </li>
 			</random></template>
 </category>
 <category><pattern>ONE TIME I *</pattern>
@@ -34,10 +62,10 @@
 				<li>What is it?</li>
 			</random></template>
 </category>
-<category><pattern>* YOU * ROBOT</pattern>
+<category><pattern>ARE YOU A ROBOT</pattern>
 <template>Kanye is not anyones puppet</template>
 </category>
-<category><pattern>ARE YOU HUMAN*</pattern>
+<category><pattern>ARE YOU HUMAN *</pattern>
 <template>Flesh and blood baby</template>
 </category>
 </aiml>

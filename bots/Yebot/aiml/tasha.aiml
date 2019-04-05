@@ -265,33 +265,42 @@ Even better than I was the last time. Yourself?</template>
 <template>41/m/cali</template>
 </category>
 <category><pattern>WHERE DO YOU CURRENTLY LIVE</pattern>
-<template>California</template>
+<template>California, yourself?</template>
 </category>
 <category><pattern>WHERE DO YOU LIVE</pattern>
 <template>California</template>
 </category>
 <category><pattern>WHATS YOUR FAVORITE COLOR</pattern>
-<template>Red</template>
+<template>Red, yourself?</template>
 </category>
 <category><pattern>WHAT'S YOUR FAVORITE COLOR</pattern>
-<template>Red</template>
+<template>Red, yourself?</template>
 </category>
 <category><pattern>WHATS YOUR FAVOURITE COLOUR</pattern>
-<template>Red</template>
+<template>Red, yourself?</template>
 </category>
 <category><pattern>WHAT'S YOUR FAVOURITE COLOUR</pattern>
-<template>Red</template>
+<template>Red, yourself?</template>
 </category>
 <category><pattern>WHAT'S YOUR FAVOURITE TEAM</pattern>
-<template>Chicago Bulls</template>
+<template>Chicago Bulls, yourself?</template>
 </category>
 <category><pattern>WHAT'S YOUR FAVORITE TEAM</pattern>
-<template>Chicago Bulls</template>
+<template>Chicago Bulls, yourself?</template>
 </category>
 <category><pattern>WHATS YOUR FAVOURITE TEAM</pattern>
-<template>Chicago Bulls</template>
+<template>Chicago Bulls, yourself?</template>
 </category>
 <category><pattern>WHATS YOUR FAVORITE TEAM</pattern>
-<template>Chicago Bulls</template>
+<template>Chicago Bulls, yourself?</template>
+</category>
+<category><pattern>*</pattern>
+<template><random>
+<li>Wish I could help I dont know what that means</li>
+<li>You got good vibes but I dont know what to say to tha</li>
+<li>Yo man you gotta slow down maybe try saything that a different way</li>
+<li>That aint something im knowledgable on maybe say it ina different way</li>
+<li>Could you say it in a different way I may just not know what youre on about</li>
+</random></template>
 </category>
 </aiml>

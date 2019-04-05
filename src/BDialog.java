@@ -75,10 +75,10 @@ public class BDialog extends JDialog {
 	 */
 	private void initialize() {
 		yeBot = new JFrame();
-		yeBot.setResizable(false);
+		yeBot.setResizable(true);
 		yeBot.setAlwaysOnTop(true);
 		yeBot.setTitle("yeBot");
-		yeBot.getContentPane().setBackground(Color.LIGHT_GRAY);
+		yeBot.getContentPane().setBackground(Color.DARK_GRAY);
 		//scroll view for our messages
 		scrollView = new JScrollPane();
 		//stop the user from scrolling up (scroll bar ugly don't need to)
@@ -95,10 +95,14 @@ public class BDialog extends JDialog {
 		//sets info for send button
 		btnSend = new JButton("Send");
 		btnSend.setBackground(Color.GRAY);
+		btnSend.setForeground(Color.BLUE);
 		btnSend.setFont(new Font("Arial Rounded MT Bold", Font.PLAIN, 19));
 
 		//sets text input box (user input)
 		input = new JTextField();
+		input.setBackground(Color.DARK_GRAY);
+		input.setForeground(Color.WHITE);
+		
 		//this keyListener will send an input if 'enter' is pressed (just like clicking the send button)
 		input.addKeyListener(new KeyAdapter() {
 			@Override
@@ -108,7 +112,9 @@ public class BDialog extends JDialog {
 						result = input.getText();
 						String displayResult = input.getText();
 						input.setText("");
+						chatBox.setBackground(Color.DARK_GRAY);
 						chatBox.setText(chatBox.getText().concat("You: "+displayResult)+"\n\n");
+						chatBox.setForeground(Color.WHITE);
 					}
 				   }
 			}
@@ -143,7 +149,8 @@ public class BDialog extends JDialog {
 		//the chatBox is where our chat occurs
 		chatBox = new JTextArea();
 		chatBox.setWrapStyleWord(true);
-		chatBox.setBackground(Color.LIGHT_GRAY);
+		chatBox.setBackground(Color.DARK_GRAY);
+		chatBox.setForeground(Color.WHITE);
 		chatBox.setFont(new Font("Arial Rounded MT Bold", Font.PLAIN, 19));
 		chatBox.setEditable(false);
 		scrollView.setViewportView(chatBox);
