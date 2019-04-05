@@ -17,7 +17,7 @@ The Interactive Conversational Agent allows an individual to hold a conversation
 
 ## Programmed Features
 * GUI
-   * The GUI was working in A2. However, improvements were made to this feature. This included aesthetical choices as well as the removal of a tiny window that popped up along with the conversational window.
+   * The GUI was working in A2. However, improvements were made to this feature. This included aesthic choices, ability to change the chat box size, as well as the removal of a tiny window that popped up along with the conversational window.
 * Topics the agent covers:
    * The agenet responds to the user in several ways:
       * A sentence based on a former social media post for example twitter
@@ -30,9 +30,10 @@ The Interactive Conversational Agent allows an individual to hold a conversation
    * "That aint something im knowledgable on maybe say it ina  different way"
    * "Could you say it in a different way I may just not know what youre on about"
 * Spell check
-* Use of language toolkits
+* Language toolkits
     * Synonym recognition -WordNet (you'll need a Java API to it)
-    * POS tagging -Stanford toolkit, 
+    * POS tagging -Stanford toolkit
+      * POS tagging was implemented to give responses when a noun is found and otherwise defualt answer would of been used
     * OpenNLP Named entity recognition -Stanford toolkit, 
     * OpenNLP Phrasal -Stanford toolkit
     * Coreference Resolution -Stanford toolkit, 
