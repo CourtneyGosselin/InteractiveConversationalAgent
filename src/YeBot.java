@@ -10,6 +10,9 @@ import org.alicebot.ab.Chat;
 import org.alicebot.ab.MagicBooleans;
 
 import edu.smu.tspell.wordnet.*;
+import opennlp.tools.namefind.NameFinderME;
+import opennlp.tools.namefind.TokenNameFinderModel;
+import opennlp.tools.util.*;
 //import net.didion.jwnl.JWNLException;
 //import net.didion.jwnl.data.Synset;
 import opennlp.tools.postag.POSModel;
@@ -102,12 +105,16 @@ public class YeBot {
 								Synset[] syns = database.getSynsets(sent[k]);
 								if(syns.length!=0){
 									for(Synset syn : syns){
-										String[] synonym = syn.getWordForms(); //cursed
+										String[] synonym = syn.getWordForms(); 
 										for(String s : synonym){
 											String newInput = input.replaceAll(sent[k]+" ", s+" ");
-											output = conversation.response(session.multisentenceRespond(newInput));
+											System.out.println(newInput);
+											output = session.multisentenceRespond(newInput);
 											if(!unknowns.contains(output)){
+												System.out.println("bentest");
+												conversation.response(output);
 												break branch;
+												
 											}
 											
 										}
@@ -118,6 +125,26 @@ public class YeBot {
 						}catch(Exception e){
 							System.out.println("Wordnet issue "+ e);
 						}
+						
+						try(InputStream inputStreamNameFinder = new FileInputStream("res/en-ner-person.bin"); ){
+							
+							TokenNameFinderModel model = new TokenNameFinderModel(inputStreamNameFinder);
+							NameFinderME nameFinder = new NameFinderME(model);
+							String[] inputs = {input};
+							Span nameSpans[] = nameFinder.find(inputs);
+							
+							for(Span s: nameSpans){
+									output = conversation.response("I ain't heard of that" + s.toString().substring(s.toString().lastIndexOf(" ")));
+								
+							}
+							break branch;
+							
+						}catch(NullPointerException Npointer){
+							//System.out.println("POS issue: " + Npointer);
+						}catch(Exception e){
+							System.out.println("Name issue: " + e);
+						}
+						
 						//POS use to respond if we are given a default response and the input contains a noun
 						try(InputStream modelIn = new FileInputStream("res/en-pos-maxent.bin")){
 							POSModel model = new POSModel(modelIn);
@@ -133,12 +160,15 @@ public class YeBot {
 									output = conversation.response(session.multisentenceRespond(input));
 								}
 							}
+							break branch;
 							
 						}catch(NullPointerException Npointer){
 							//System.out.println("POS issue: " + Npointer);
 						}catch(Exception e){
 							System.out.println("POS issue: " + e);
 						}
+					
+						//output = conversation.response(output);
 					}else{
 						output = conversation.response(session.multisentenceRespond(input));
 					}
