@@ -37,16 +37,20 @@ The Interactive Conversational Agent allows an individual to hold a conversation
    * "Could you say it in a different way I may just not know what youre on about"
 * Spell checkb - Not Implemented Currently 
 * Language toolkits
-    * Synonym recognition -WordNet (you'll need a Java API to it)
-    * POS tagging -Stanford toolkit
+    * Synonym recognition -WordNet 
+      * Implemented using Princeton WordNet and Jaws
+    * POS tagging -OpenNLP
       * POS tagging was implemented to give responses when a noun is found and otherwise defualt answer would of been used
-    * OpenNLP Named entity recognition -Stanford toolkit, 
-    * OpenNLP Phrasal -Stanford toolkit
-    * Coreference Resolution -Stanford toolkit, 
-    * OpenNLP Sentiment analysis tools -Stanford toolkit
-* Conversation with another agent in class
+    * Named entity recognition - OpenNLP
+      * Implemented to respond to named entites to make for smoother conversation
+    * Phrasal - Not Implemented
+    * Coreference Resolution  - Not Implemented 
+    * Sentiment analysis tools  - Not Implemented
+* Conversation with another agent in class  - Not Implemented
 * Fixed Issues
   * Null response running every second in background removed
+  * Small GUI Image \
+  * Removed random Print statements
 
 ## Documentation
 Found in the files folder and ReadMe File
@@ -56,9 +60,12 @@ Found in the files folder and ReadMe File
 * Graph showing different features developed on seperate branh w commits amde to repo
 * Include sample output of dialogue 30 turns showing the new features
 * Document a list of limitation fo the program showing two short version of what it cannot handle
-* 5+ Features that can be extracted from the code or design that can be shared with others as an API
-
-
+* Features that can be extracted from the code or design that can be shared with others as an API
+  * GUI
+  * AIML
+  * WordNet
+  * POS Tagging
+  * Named Entity Recognition
 
 ## Built With
 
