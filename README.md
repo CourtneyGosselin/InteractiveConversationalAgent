@@ -17,27 +17,36 @@ The Interactive Conversational Agent allows an individual to hold a conversation
 
 ## Programmed Features
 * GUI
-   * The GUI was working in A2. However, improvements were made to this feature. This included aesthetical choices as well as the removal of a tiny window that popped up along with the conversational window.
+   * The GUI was working in A2. However, improvements were made to this feature. This included aesthetic choices, ability to change the chat box size, as well as the removal of a tiny window that popped up along with the conversational window.
 * Topics the agent covers:
    * The agenet responds to the user in several ways:
       * A sentence based on a former social media post for example twitter
       * A sentence based on song lyrics
       * A sentence based on interviews 
+   * General Conversation
+    * Himself
+    * His family and pets
+    * Personal Interests and hobbies
+    * President of USA
+    * His favourite colour etc.
 * Reasonable responses for when the user enters something Yebot doesn't know
    * "Wish I could help    I dont know what that means"
    * "You got good vibes   but I dont know what to say to that"
-   * "Yo man you gotta slow down  maybe try saything that a different way"
-   * "That aint something im knowledgable on maybe say it ina  different way"
+   * "Yo man you gotta slow down  maybe try saying it a different way"
+   * "That aint something im knowledgeable on maybe say it ina  different way"
    * "Could you say it in a different way I may just not know what youre on about"
-* Spell check
-* Use of language toolkits
+* Spell checkb - Not Implemented Currently 
+* Language toolkits
     * Synonym recognition -WordNet (you'll need a Java API to it)
-    * POS tagging -Stanford toolkit, 
+    * POS tagging -Stanford toolkit
+      * POS tagging was implemented to give responses when a noun is found and otherwise defualt answer would of been used
     * OpenNLP Named entity recognition -Stanford toolkit, 
     * OpenNLP Phrasal -Stanford toolkit
     * Coreference Resolution -Stanford toolkit, 
     * OpenNLP Sentiment analysis tools -Stanford toolkit
 * Conversation with another agent in class
+* Fixed Issues
+  * Null response running every second in background removed
 
 ## Documentation
 Found in the files folder and ReadMe File
@@ -55,6 +64,7 @@ Found in the files folder and ReadMe File
 
 * [Java](https://www.java.com/) - Programming language 
 * [AIML](https://www.tutorialspoint.com/aiml/) - AIML dialogue
+* [OpenNLP](https://opennlp.apache.org/) - Langugae Toolkit
 
 
 
